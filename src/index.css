@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.container{
+  max-width: 1400px;
+  width: 95%;
+  margin: 0 auto;
+}
+
 .sora_font {
   font-family: "Sora", sans-serif;
 }
