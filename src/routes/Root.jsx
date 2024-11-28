@@ -8,9 +8,10 @@ const router = createBrowserRouter([
         element: <Layouts/>,
         children: [
             {
-                path: "/home",
+                path: "/",
                 element: <Home/>
-            }
+            },
+            
         ]
     }
 ])
