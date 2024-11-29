@@ -6,7 +6,7 @@ import { FaRegHeart } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <>
-    <div className='bg-[#c7c7c7]'>
+    <div className='bg_color fixed w-full z-50'>
         <div className="navbar container">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -24,20 +24,20 @@ const Navbar = () => {
                         d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
                 </div>
-                <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-white">
                    <NavItems />
                 </ul>
                 </div>
-                <a className="sora_font font-semibold text-xl">Gadget Heaven</a>
+                <a className="sora_font font-semibold text-xl text-white">Gadget Heaven</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-white">
                     <NavItems />
                 </ul>
             </div>
             <div className="navbar-end space-x-3">
-                <a className="w-9 h-9 bg-gray-600 rounded-full  flex justify-center items-center text-white text-[18px]"><TiShoppingCart /></a>
-                <a className="w-9 h-9 bg-gray-600 rounded-full  flex justify-center items-center text-white text-[20px]"><FaRegHeart /></a>
+                <a className="w-9 h-9 bg-white rounded-full  flex justify-center items-center text-gray-600 text-[19px]"><TiShoppingCart /></a>
+                <a className="w-9 h-9 bg-white rounded-full  flex justify-center items-center text-gray-600 text-[18px]"><FaRegHeart /></a>
             </div>
         </div>
     </div>

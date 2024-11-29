@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 
 const NavItems = () => {
   return (
-    <>
-      <div className='flex sora_font'>
+    <>   
         <li>
             <Link to="/">Home</Link>
         </li>
@@ -16,8 +15,7 @@ const NavItems = () => {
         </li>
         <li>
             <Link to="/portfolio">Portfolio</Link>
-        </li>
-      </div>
+        </li>      
     </>
   )
 }

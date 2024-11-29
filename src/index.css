@@ -14,3 +14,11 @@
 .sora_font {
   font-family: "Sora", sans-serif;
 }
+
+.bg_color{
+  background-color: rgba(149, 56, 226, 1);
+}
+
+.text_color{
+  color: rgba(149, 56, 226, 1);
+}
