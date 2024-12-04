@@ -9,7 +9,34 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home/>
+                element: <Home/>,
+                loader: () => fetch('./gadgetData.json'),
+                children: [
+                    {
+                        path: "/allProduct",
+                        element: <Home />
+                    },
+                    {
+                        path: "/laptops",
+                        element: <Home />
+                    },
+                    {
+                        path: "/phones",
+                        element: <Home />
+                    },
+                    {
+                        path: "/watches",
+                        element: <Home />
+                    },
+                    {
+                        path: "/cameras",
+                        element: <Home />
+                    },
+                    {
+                        path: "/chargers",
+                        element: <Home />
+                    },
+                ]
             },
             
         ]

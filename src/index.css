@@ -22,3 +22,7 @@
 .text_color{
   color: rgba(149, 56, 226, 1);
 }
+
+.active{
+  background-color: #154c79;
+}

@@ -1,0 +1,303 @@
+[
+    {
+      "product_id": "001",
+      "product_title": "MacBook Pro 16-inch",
+      "product_image": "https://img.freepik.com/free-photo/view-3d-laptop-device-with-screen-keyboard_23-2150714071.jpg?t=st=1730709986~exp=1730713586~hmac=aebf4b3d79ca6479621e3921c8102f08e49fc94ebdeaeefcd579fd6c19ab2b06&w=826",
+      "category": "laptops",
+      "price": 2499.99,
+      "description": "High-performance laptop with Apple's M1 Pro chip for professionals.",
+      "Specification": [
+        "16-inch Retina display",
+        "Apple M1 Pro chip",
+        "16GB RAM",
+        "512GB SSD",
+        "21-hour battery life"
+      ],
+      "availability": true,
+      "rating": 5,
+      "other": { "color": "Space Gray", "warranty": "1 year" }
+    },
+    {
+      "product_id": "002",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://img.freepik.com/free-photo/adha-shopping-basket-laptop-front-side-white-background_187299-39305.jpg?t=st=1730710228~exp=1730713828~hmac=d8f3736b804fc9863d7e316cf71ce54e1949dea33e506c992516d779202dfbb0&w=1380",
+      "category": "laptops",
+      "price": 1299.99,
+      "description": "Ultra-thin, lightweight laptop with a stunning InfinityEdge display.",
+      "Specification": [
+        "13.4-inch FHD+",
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "other": { "color": "Platinum Silver", "warranty": "1 year" }
+    },
+    {
+      "product_id": "003",
+      "product_title": "Samsung S23 Ultra",
+      "product_image": "https://images.pexels.com/photos/16149966/pexels-photo-16149966/free-photo-of-get-ready-for-the-future-with-samsung-galaxy-s23.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "phones",
+      "price": 1199.99,
+      "description": "Flagship phone with advanced camera system and AMOLED display.",
+      "Specification": [
+        "6.8-inch AMOLED",
+        "Snapdragon 8 Gen 2",
+        "12GB RAM",
+        "256GB storage",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "other": { "color": "Phantom Black", "5G Support": true }
+    },
+    {
+      "product_id": "004",
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://images.pexels.com/photos/18525574/pexels-photo-18525574/free-photo-of-unboxing-iphone-15-pro-max-box-in-natural-titanium-color-mention-zana_qaradaghy-on-instagram-while-use-this-photo-follow-on-instagram-zana_qaradaghy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "phones",
+      "price": 1099.99,
+      "description": "Apple's latest iPhone with ProMotion display and A16 Bionic chip.",
+      "Specification": [
+        "6.1-inch OLED",
+        "A16 Bionic",
+        "128GB storage",
+        "48MP main camera"
+      ],
+      "availability": true,
+      "rating": 2.5,
+      "other": { "color": "Space Black", "5G Support": true }
+    },
+    {
+      "product_id": "005",
+      "product_title": "Apple Series 9",
+      "product_image": "https://img.freepik.com/free-vector/metallic-modern-watch_23-2147517453.jpg?t=st=1730711487~exp=1730715087~hmac=7b1af6af5ffd570542a44e0af136668c54afa699586fee8f4cfc64c15618222d&w=826",
+      "category": "watches",
+      "price": 399.99,
+      "description": "Smartwatch with health tracking, GPS, and always-on display.",
+      "Specification": [
+        "Always-On Retina",
+        "Blood Oxygen & ECG",
+        "18-hour battery",
+        "Water resistant 50m"
+      ],
+      "availability": true,
+      "rating": 3.7,
+      "other": { "size": "45mm", "strap": "Silicone" }
+    },
+    {
+      "product_id": "006",
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://img.freepik.com/free-photo/close-up-hand-using-smartwatch-security_23-2148994223.jpg?t=st=1730711346~exp=1730714946~hmac=58b2d829ef6d0c605b7ca23bf527d4d9c891edde6b1cdd9db1010f99cb90ff74&w=1380",
+      "category": "watches",
+      "price": 299.99,
+      "description": "Feature-rich smartwatch with fitness and health tracking.",
+      "Specification": [
+        "Super AMOLED display",
+        "GPS",
+        "Blood Oxygen sensor",
+        "Sleep tracking"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "other": { "size": "44mm", "strap": "Leather" }
+    },
+    {
+      "product_id": "007",
+      "product_title": "Sony Alpha a7 IV",
+      "product_image": "https://images.pexels.com/photos/28859558/pexels-photo-28859558/free-photo-of-professional-camera-with-orange-case-on-black-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "cameras",
+      "price": 2499.99,
+      "description": "Mirrorless camera with 33MP full-frame sensor and 4K video recording.",
+      "Specification": [
+        "33MP full-frame",
+        "4K 60fps",
+        "10fps burst",
+        "In-body stabilization"
+      ],
+      "availability": false,
+      "rating": 3.2,
+      "other": { "connectivity": "WiFi & Bluetooth", "lens_mount": "E-mount" }
+    },
+    {
+      "product_id": "008",
+      "product_title": "Canon EOS R5",
+      "product_image": "https://img.freepik.com/free-photo/photo-camera-still-life_23-2150630955.jpg?t=st=1730710774~exp=1730714374~hmac=6d12ea0b5451ad65ee2e24c9af8b2f6fc46cce621402d04f139f98b3377fc671&w=1380",
+      "category": "cameras",
+      "price": 3899.99,
+      "description": "Professional mirrorless camera with 45MP sensor and 8K video.",
+      "Specification": [
+        "45MP full-frame",
+        "8K video",
+        "20fps electronic shutter",
+        "Dual Pixel autofocus"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "other": { "connectivity": "WiFi", "lens_mount": "RF mount" }
+    },
+    {
+      "product_id": "009",
+      "product_title": "Anker Portable Charger",
+      "product_image": "https://img.freepik.com/free-photo/usb-hubs-digital-device_53876-97314.jpg?t=st=1730711219~exp=1730714819~hmac=f744fe79d159cf9ac8c7973a5d9d554e73c3d8c3955e1f4a2d361d8312d35fa6&w=826",
+      "category": "chargers",
+      "price": 69.99,
+      "description": "High-capacity portable charger with dual input and three USB outputs.",
+      "Specification": ["26800mAh", "Dual input", "3 USB ports", "Fast charging"],
+      "availability": true,
+      "rating": 2.7,
+      "other": { "color": "Black", "warranty": "18 months" }
+    },
+    {
+      "product_id": "010",
+      "product_title": "Belkin Wireless Charger",
+      "product_image": "https://img.freepik.com/free-photo/wireless-charger-digital-device_53876-97322.jpg?t=st=1730711118~exp=1730714718~hmac=25f0b0007134a4d408c79493ca1a34a1f8f43f376bd30315fae210fbb7dd6479&w=826",
+      "category": "chargers",
+      "price": 149.99,
+      "description": "3-in-1 wireless charger for iPhone, Apple Watch, and AirPods.",
+      "Specification": [
+        "15W fast charge",
+        "MagSafe compatible",
+        "Supports iPhone, Apple Watch, AirPods"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "other": { "color": "White", "warranty": "2 years" }
+    },
+    {
+      "product_id": "011",
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://images.pexels.com/photos/1482061/pexels-photo-1482061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "phones",
+      "price": 899.99,
+      "description": "Flagship Google phone with advanced AI camera features.",
+      "Specification": [
+        "6.7-inch OLED",
+        "Google Tensor G2",
+        "12GB RAM",
+        "128GB storage",
+        "5000mAh battery"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "other": { "color": "Obsidian", "5G Support": true }
+    },
+    {
+      "product_id": "012",
+      "product_title": "HP Spectre x360 14",
+      "product_image": "https://img.freepik.com/free-photo/view-electronic-product-balancing-podium_23-2150141319.jpg?t=st=1730710239~exp=1730713839~hmac=872c6105fd5075b7713f97f59b9e9fa329df47b16ebde2bd2b78b9b16f2766d8&w=740",
+      "category": "laptops",
+      "price": 1599.99,
+      "description": "Convertible laptop with stunning OLED display and Intel Evo platform.",
+      "Specification": [
+        "13.5-inch OLED",
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "availability": true,
+      "rating": 5,
+      "other": { "color": "Nightfall Black", "warranty": "1 year" }
+    },
+    {
+      "product_id": "013",
+      "product_title": "DJI Osmo Action 3",
+      "product_image": "https://images.pexels.com/photos/7676976/pexels-photo-7676976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "category": "cameras",
+      "price": 329.99,
+      "description": "Waterproof action camera with dual screens and 4K HDR video.",
+      "Specification": [
+        "4K HDR video",
+        "Waterproof 16m",
+        "RockSteady stabilization",
+        "Dual screens"
+      ],
+      "availability": true,
+      "rating": 3.6,
+      "other": {
+        "battery_life": "160 minutes",
+        "connectivity": "WiFi & Bluetooth"
+      }
+    },
+    {
+      "product_id": "014",
+      "product_title": "Fitbit Sense 2",
+      "product_image": "https://img.freepik.com/free-vector/smartwatch-concept-illustration_114360-4306.jpg?t=st=1730711393~exp=1730714993~hmac=a1ccd087642da339813726028979790e71f05abd8f5b4abf8fb6555f2d921757&w=826",
+      "category": "watches",
+      "price": 299.99,
+      "description": "Advanced health smartwatch with stress management tools.",
+      "Specification": [
+        "ECG app",
+        "Skin temperature sensor",
+        "6-day battery life",
+        "Water resistant 50m"
+      ],
+      "availability": true,
+      "rating": 1.2,
+      "other": { "color": "Graphite", "band_material": "Silicone" }
+    },
+    {
+      "product_id": "015",
+      "product_title": "Lenovo X1 Carbon Gen 9",
+      "product_image": "https://img.freepik.com/free-photo/eid-shopping-basket-laptop-right-side_187299-38648.jpg?t=st=1730710246~exp=1730713846~hmac=5b96493dd8220e33343086caca2edb7f64f26b4091340c5b542b3affa0d4d903&w=1380",
+      "category": "laptops",
+      "price": 1899.99,
+      "description": "Ultra-light laptop with powerful performance for business.",
+      "Specification": ["14-inch FHD", "Intel Core i7", "16GB RAM", "1TB SSD"],
+      "availability": true,
+      "rating": 3.2,
+      "other": { "color": "Black", "warranty": "3 years" }
+    },
+    {
+      "product_id": "016",
+      "product_title": "Anker Nano II 65W Charger",
+      "product_image": "https://img.freepik.com/free-photo/charger-usb-cable-type-c-orange-background_58702-4577.jpg?t=st=1730711166~exp=1730714766~hmac=c0afddb4afea2c35cca606f78596553c7646c24fe8d1425b27b7b015349c0f63&w=1380",
+      "category": "chargers",
+      "price": 60.99,
+      "description": "Compact 65W USB-C charger with GaN technology.",
+      "Specification": [
+        "65W output",
+        "USB-C",
+        "GaN technology",
+        "Compact design"
+      ],
+      "availability": true,
+      "rating": 3.8,
+      "other": { "color": "Black", "warranty": "18 months" }
+    },
+    {
+      "product_id": "017",
+      "product_title": "OnePlus 11",
+      "product_image": "https://img.freepik.com/free-vector/display-template-with-mobile-phones_79603-1245.jpg?t=st=1730710382~exp=1730713982~hmac=f2a4a7764b005ec6ca0d5b3996c65f1ac711387517a552c0649ac95fa6ca9da6&w=1380",
+      "category": "phones",
+      "price": 699.99,
+      "description": "High-performance phone with Snapdragon 8 Gen 2 and fast charging.",
+      "Specification": [
+        "6.7-inch AMOLED",
+        "Snapdragon 8 Gen 2",
+        "12GB RAM",
+        "256GB storage"
+      ],
+      "availability": true,
+      "rating": 4,
+      "other": { "color": "Eternal Green", "5G Support": true }
+    },
+    {
+      "product_id": "018",
+      "product_title": "Garmin Venu 2 Plus",
+      "product_image": "https://img.freepik.com/free-vector/realistic-fitness-tracker-bracelet-illustration-collection_23-2148555261.jpg?t=st=1730711443~exp=1730715043~hmac=c5406cf60e35ab0d4849d97525797f8766bdae13da0595ef8d29359842f94ddd&w=826",
+      "category": "watches",
+      "price": 399.99,
+      "description": "Smartwatch with GPS, heart rate monitoring, and AMOLED display.",
+      "Specification": [
+        "1.3-inch AMOLED",
+        "GPS",
+        "Battery life up to 9 days",
+        "Health tracking"
+      ],
+      "availability": true,
+      "rating": 5,
+      "other": { "color": "Slate", "strap_material": "Silicone" }
+    }
+  ]
