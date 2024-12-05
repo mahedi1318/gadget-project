@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({cardValue}) => {
   return (
@@ -14,7 +15,7 @@ const Card = ({cardValue}) => {
                 <h2 className="card-title">{cardValue?.product_title}</h2>
                 <p>Price: {cardValue?.price}</p>
                 <div className="card-actions">
-                <button className="btn btn-outlate border border-[#9538E2] px-10 rounded-full sora_font text-[16px] mt-2">Details</button>
+                <Link to={`/details/${cardValue.product_id}`} className="btn btn-outlate border border-[#9538E2] px-10 rounded-full sora_font text-[16px] mt-2">Details</Link>
                 </div>
             </div>
         </div>

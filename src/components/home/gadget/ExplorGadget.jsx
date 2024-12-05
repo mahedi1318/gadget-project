@@ -32,7 +32,8 @@ let storPathName = categoryPath.pathname.slice(1)
     }else if(storPathName === "allProduct"){
         commonData = alldata
     }
-console.log(commonData)
+
+    
   return (
     <section className='container'>
         <div>

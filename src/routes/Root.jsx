@@ -1,6 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layouts from "../layouts/Layouts";
 import Home from "../pages/Home";
+import DetailsPage from "../pages/DetailsPage";
+import StatisticsPage from "../pages/StatisticsPage";
+import DashboardPage from "../pages/DashboardPage";
+import PortfolioPage from "../pages/PortfolioPage";
 
 const router = createBrowserRouter([
     {
@@ -38,7 +42,23 @@ const router = createBrowserRouter([
                     },
                 ]
             },
-            
+            {
+                path: "/details/:id",
+                element: <DetailsPage />,
+                loader: () => fetch('./gadgetData.json'),
+            },
+            {
+                path: "/statistics",
+                element: <StatisticsPage />,              
+            },
+            {
+                path: "/dashboard",
+                element: <DashboardPage />,               
+            },  
+            {
+                path: "/portfolio",
+                element: <PortfolioPage />,               
+            },             
         ]
     }
 ])
