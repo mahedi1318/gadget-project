@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import NavItems from './NavItems'
 import { TiShoppingCart } from "react-icons/ti";
 import { FaRegHeart } from "react-icons/fa6";
+import { productContext } from '../../provider/ProviderData';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+    let {cart, wish} = useContext(productContext)        
+
   return (
     <>
     <div className='bg_color fixed w-full z-50'>
@@ -36,8 +41,15 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end space-x-3">
-                <a className="w-9 h-9 bg-white rounded-full  flex justify-center items-center text-gray-600 text-[19px]"><TiShoppingCart /></a>
-                <a className="w-9 h-9 bg-white rounded-full  flex justify-center items-center text-gray-600 text-[18px]"><FaRegHeart /></a>
+                <div className='relative'>
+                    <Link to="/dashboard" className="w-9 h-9 bg-white rounded-full  flex justify-center items-center text-gray-600 text-[19px]"><TiShoppingCart /></Link>
+                    <div className='w-5 h-5 bg-slate-700 rounded-full flex justify-center items-center text-white absolute top-[-8px] right-[-8px]'><span className='sora_font text-[13px]'>{cart.length}</span></div>
+                </div>
+                <div className='relative'>                    
+                    <Link to="/dashboard" className="w-9 h-9 bg-white rounded-full  flex justify-center items-center text-gray-600 text-[18px]"><FaRegHeart /></Link>
+                    <div className='w-5 h-5 bg-slate-700 rounded-full flex justify-center items-center text-white absolute top-[-8px] right-[-8px]'>
+                    <span className='sora_font text-[13px]'>{wish.length}</span></div>
+                </div>
             </div>
         </div>
     </div>

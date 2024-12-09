@@ -4,9 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import { RouterProvider } from 'react-router-dom'
 import router from './routes/Root.jsx'
+import ProviderData from './components/provider/ProviderData.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <ProviderData>
+      <RouterProvider router={router}/>
+    </ProviderData>
   </StrictMode>,
 )

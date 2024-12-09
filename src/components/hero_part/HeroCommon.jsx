@@ -4,8 +4,7 @@ import { useLocation } from 'react-router-dom'
 const HeroCommon = () => {
 
     let pathLocation = useLocation();
-    let title = pathLocation?.pathname?.split("/")[1]
-    console.log(title)
+    let title = pathLocation?.pathname?.split("/")[1]   
 
   return (
     <div className="hero bg_color h-[450px] flow-root">

@@ -1,7 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 
 const Card = ({cardValue}) => {
+
+  let singleDataLode = useLoaderData()
+
+  const handleLocalStorage = () =>{
+    localStorage.setItem("data", JSON.stringify(singleDataLode))
+  }
+
   return (
     <div>
         <div className="card bg-base-100 shadow-xl">
@@ -15,7 +22,7 @@ const Card = ({cardValue}) => {
                 <h2 className="card-title">{cardValue?.product_title}</h2>
                 <p>Price: {cardValue?.price}</p>
                 <div className="card-actions">
-                <Link to={`/details/${cardValue.product_id}`} className="btn btn-outlate border border-[#9538E2] px-10 rounded-full sora_font text-[16px] mt-2">Details</Link>
+                <Link onClick={handleLocalStorage} to={`/details/${cardValue.product_id}`} className="btn btn-outlate border border-[#9538E2] px-10 rounded-full sora_font text-[16px] mt-2">Details</Link>
                 </div>
             </div>
         </div>

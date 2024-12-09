@@ -5,10 +5,12 @@ import { useLoaderData, useLocation } from 'react-router-dom'
 
 const ExplorGadget = () => {
 
-let alldata = useLoaderData();
+let loaderData = useLoaderData();
+let localData = JSON.parse(localStorage.getItem("data"))
+let alldata = loaderData || localData
+
 let categoryPath = useLocation()
 let storPathName = categoryPath.pathname.slice(1)
-
     let commonData = [];
     if(commonData.length === 0){
         commonData = alldata;
@@ -33,6 +35,9 @@ let storPathName = categoryPath.pathname.slice(1)
         commonData = alldata
     }
 
+    if(!Array.isArray(commonData)) {
+        commonData = localData || []
+    }
     
   return (
     <section className='container'>
