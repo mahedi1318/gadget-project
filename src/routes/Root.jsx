@@ -49,7 +49,8 @@ const router = createBrowserRouter([
             },
             {
                 path: "/statistics",
-                element: <StatisticsPage />,              
+                element: <StatisticsPage />,  
+                loader: () => fetch('./gadgetData.json'),            
             },
             {
                 path: "/dashboard",
